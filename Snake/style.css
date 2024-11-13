@@ -1,0 +1,50 @@
+
+/*  Snake */
+
+.wrapper {
+    width: 65vmin;
+    height: 70vmin;
+    display: none;
+    flex-direction: column;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fall {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.rise {
+    opacity: 1;
+}
+
+.game-details {
+    color: black;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-board {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    border-radius: 5px;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    background: #f8f8f8b9;
+}
+
+.play-board .food {
+    background: #FF003D;
+}
+
+.play-board .head {
+    background: #10cd3f;
+}

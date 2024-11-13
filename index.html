@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+
+    <!---------------- CSS ---------------->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="SwitchColorTheme/style.css">
+    <link rel="stylesheet" href="GameButtons/style.css">
+    <link rel="stylesheet" href="resolution.css">
+    <link rel="stylesheet" href="Background/style.css">
+    <link rel="stylesheet" href="Congrats/style.css">
+    <link rel="stylesheet" href="Snake/style.css">
+    <link rel="stylesheet" href="Memory/style.css">
+    <link rel="stylesheet" href="GuessTheNumber/numberGuess.css">
+
+    <!---------------- Google Icons ---------------->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+
+    <!---------------- Game Buttons ---------------->
+    
+    <div class="games-container">
+        <button>
+            <span class="button_top" id="snakeButton"> Snake </span>
+        </button>
+        <button>
+            <span class="button_top" id="memoryButton"> Memory </span>
+        </button>
+        <button>
+            <span class="button_top" id="numberGuess"> Guess a number </span>
+        </button>
+    </div>
+
+    <!---------------- Resolution ---------------->
+
+    <div class="light-background resolution-wrapper">
+        <span class="resolution-message">Use device with a higher resolution</span>
+    </div>
+
+    <!---------------- Snake ---------------->
+
+    <div class="wrapper" id="wrapper">
+        <div class="dark-background game-details">
+            <span class="score">Score: 0<span>/100</span></span>
+            <span class="high-score">High Score: 30</span>
+        </div>
+        <div class="light-background play-board"></div>
+    </div>
+
+    <!---------------- Memory ---------------->
+
+    <div class="light-background memory-wrapper" id="memory-wrapper">
+        <ul class="cards">
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-1.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-2.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-3.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-4.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-5.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-6.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-7.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-8.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-1.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-2.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-3.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-4.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-5.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-6.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-7.png" alt="card-img">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="Memory/Images/img-8.png" alt="card-img">
+                </div>
+            </li>
+        </ul>
+
+        <!---------------- Timer, Flips and Refresh Button ---------------->
+
+        <div class="dark-background memory-header">
+            <span class="timer">Time left: <span id="timeLeft">60</span>s</span>
+            <span class="flips">Flips: <span id="flipCount">0</span></span>
+            <button class="btnTheme reset-button">Refresh</button>
+        </div>
+
+    </div>
+
+    <!---------------- Guess the number ---------------->
+
+    <div class="light-background numberGuess-wrapper" id="numberGuess-wrapper">
+        <div class="dark-background info-wrapper">
+            <h3>Guess a number between 1-100</h3>
+        </div>
+        <div class="dark-background hint">
+            <p id="message"></p>
+            <p id="attempts">Attempts left: 10</p>
+        </div>
+        <div class="dark-background button-wrapper">
+            <button class="btnTheme" onclick="resetGame()">Refresh</button>
+            <input class="light-background" placeholder="..." type="number" id="guessInput" min="1" max="100">
+            <button class="btnTheme" onclick="checkGuess()">Guess</button>
+        </div>
+    </div>
+
+    <!---------------- Background ---------------->
+
+    <div class="container"></div>
+
+    <!---------------- Confetti ---------------->
+
+    <canvas id="confettiCanvas"></canvas>
+
+    <!---------------- JavaScript ---------------->
+
+    <script src="Snake/snake.js" defer></script>
+    <script src="Memory/memory.js"></script>
+    <script src="GuessTheNumber/numberGuess.js"></script>
+    <script src="GameButtons/switch.js"></script>
+    <script src="Congrats/confetti.js"></script>
+    <script src="Background/background.js"></script>
+
+</body>
+</html>

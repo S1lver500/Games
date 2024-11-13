@@ -1,0 +1,52 @@
+
+/* Light background */
+
+.theme-orange .light-background {
+    background: #ffd3c1;
+}
+
+.theme-green .light-background {
+    background: #c1ffd1;
+}
+
+.theme-blue .light-background {
+    background: #c1ccff;
+}
+
+.theme-pink .light-background {
+    background: #ffc1f7;
+}
+
+.theme-violet .light-background {
+    background: #ebc1ff;
+}
+
+.theme-cyan .light-background {
+    background: #c1f8ff;
+}
+
+/* Dark background */
+
+.theme-orange .dark-background {
+    background: #ffcdb9;
+}
+
+.theme-green .dark-background {
+    background: #bdfccd;
+}
+
+.theme-blue .dark-background {
+    background: #bbc8ff;
+}
+
+.theme-pink .dark-background {
+    background: #fdbcf5;
+}
+
+.theme-violet .dark-background {
+    background: #eabeff;
+}
+
+.theme-cyan .dark-background {
+    background: #b8f7ff;
+}

@@ -1,0 +1,29 @@
+
+/* Background */
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #d0ebff; 
+    opacity: 0.8;
+    animation: moveUp infinite ease-in;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: translateY(-110vh);
+    }
+}
