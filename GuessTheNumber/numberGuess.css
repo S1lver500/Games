@@ -35,10 +35,10 @@
 input[type="number"] {
     width: 100px;
     height: 33px;
+    border: 2px solid black;
     border-radius: 10px;
     text-align: center;
     outline: none;
-    border-color: black;
 }
 
 .hint {
